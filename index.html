@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>F1 Season Points Calculator</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-content">
+                <h2>F1 Season Points Calculator</h2>
+                <p>
+                    Enter the driver's finishing position for each race<br />(1-10
+                    for points, leave empty or use >10 for 0 points).
+                </p>
+            </div>
+            <form id="pointsForm">
+                <div class="input-group">
+                    <label for="race1">Race 1</label>
+                    <input type="number" id="race1" placeholder="Value" />
+                </div>
+                <div class="input-group">
+                    <label for="race2">Race 2</label>
+                    <input type="number" id="race2" placeholder="Value" />
+                </div>
+                <div class="input-group">
+                    <label for="race3">Race 3</label>
+                    <input type="number" id="race3" placeholder="Value" />
+                </div>
+                <div class="input-group">
+                    <label for="race4">Race 4</label>
+                    <input type="number" id="race4" placeholder="Value" />
+                </div>
+                <div class="input-group">
+                    <label for="race5">Race 5</label>
+                    <input type="number" id="race5" placeholder="Value" />
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="result"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
